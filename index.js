@@ -22,8 +22,8 @@ new Vue({
             <a-asset-item id="aken" src="./assets/models/aken.obj"></a-asset-item>
             <a-asset-item id="aken-mtl" src="./assets/models/aken.mtl"></a-asset-item>
 
-            <a-asset-item id="UmbrellaPalmtree" src="./assets/models/UmbrellaPalmtree.obj"></a-asset-item>
-            <a-asset-item id="UmbrellaPalmtree-mtl" src="./assets/models/UmbrellaPalmtree.mtl"></a-asset-item>
+            <a-asset-item id="UmbrellaPalmTree" src="./assets/models/UmbrellaPalmTree.obj"></a-asset-item>
+            <a-asset-item id="UmbrellaPalmTree-mtl" src="./assets/models/UmbrellaPalmTree.mtl"></a-asset-item>
 
             <a-asset-item id="1" src="./assets/models/1.obj"></a-asset-item>
             <a-asset-item id="1-mtl" src="./assets/models/1.mtl"></a-asset-item>
@@ -48,7 +48,7 @@ new Vue({
 
         <a-entity class="raamat" position="-0.02 0.998 4.108" rotation="0 99.829 0" scale="1 1 1" obj-model="obj: #raamat; mtl: #raamat-mtl"></a-entity>  
       
-        <a-entity class="puu" position=" 8.19 0.2 3.3" rotation="0 -90 0" scale="0.45 0.4 0.45" obj-model="obj: #UmbrellaPalmtree; mtl: #UmbrellaPalmtree-mtl"></a-entity>  
+        <a-entity class="puu" position=" 8.19 0.2 3.3" rotation="0 -90 0" scale="0.45 0.4 0.45" obj-model="obj: #UmbrellaPalmTree; mtl: #UmbrellaPalmTree-mtl"></a-entity>  
        
         <Box  class="hover"
               position="0 0.471 4.1" 
